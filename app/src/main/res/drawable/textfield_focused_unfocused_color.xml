@@ -1,0 +1,17 @@
+<!-- custom_text_input_layout_outline.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Focused state -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#1E88E5" />
+            <!-- You can adjust the focused outline color here -->
+        </shape>
+    </item>
+    <!-- Default state (unfocused) -->
+    <item>
+        <shape>
+            <solid android:color="@color/black" />
+            <!-- You can adjust the unfocused outline color here -->
+        </shape>
+    </item>
+</selector>
